@@ -1,6 +1,6 @@
 export default function Experince() {
   return (
-    <div className="justify-center flex">
+    <div className="justify-center flex items-center h-screen">
       <div className=" relative mx-auto">
         <img src="SKILLS(1).svg" alt="myskills" />
         <div className=" absolute top-[15%] right-[40.5%] group">

@@ -1,18 +1,18 @@
 import Link from "next/link";
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-self-center h-full pt-5 ">
+    <div className="flex flex-col justify-self-center h-screen pt-5 ">
       {/* Photo section */}
-      <div className=" right-[8%] relative top-13   ">
+      <div className="right-[8%] relative top-13 items-center">
         <img src="/Ellipse 3.svg" alt="elsipeimg" />
       </div>
-      <div className="absolute  bottom-[55%] w-[150px]">
+      <div className="relative flex items-center h-screen bottom-[20%] w-[150px]">
         <Link href="/">
           <img src="/Me.svg" alt="meimg" />
         </Link>
       </div>
       {/* About me section */}
-      <div className="relative left-[17%] -translate-y-69 top-10">
+      <div className="relative left-[17%] -translate-y-110 top-10">
         <img src="/Arrow.svg" alt="arrowimg" />
         <div className="absolute translate-x-15 top-4 flex items-center">
           <p className="text-xs text-white font-semibold"> Hey there 👋 </p>
@@ -26,7 +26,7 @@ export default function Hero() {
           <p className="text-white text-3xl font-bold"> loves coding</p>
         </div>
         <div className="flex flex-col text-center mt-12 gap-5">
-          <h1 className="text-white text-5xl font-bold ">ENG.Abdulnour</h1>
+          <h1 className="text-white text-5xl font-bold ">Eng.Abdulnour</h1>
           <p className="text-white bg-black opacity-70 rounded-full">
             "Passionate front-end developer with hands-on experience in modern
             frameworks."
